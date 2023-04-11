@@ -1,0 +1,31 @@
+There is no special syntax for writing conditional statements we can use the same technique but the syntax will be lil bit changes
+
+function displayContent(){
+  let content;
+  if (isLoggedIn){
+    content = <AdminPanel/>
+  }
+  else {
+    content = <LoginForm/>
+  }
+
+return <div>
+{content}
+</div>
+}==========> it can also be written as,
+
+
+function displayContent(){
+  return <div>
+    {isLoggedIn?
+   ( <AdminPanel/>):(<LoginForm/>)}
+  </div>
+}
+if u dont need any else branch u can write the code as 
+
+function displayContent(){
+  return <div>
+    {isLoggedIn && <AdminPanel/>}
+  </div>
+}
+
