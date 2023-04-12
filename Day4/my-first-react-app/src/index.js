@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import MyButton from "./Button";
 import Profile from "./ReactInfo2";
+import ShoppingList from "./ReactIteration";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -12,6 +13,7 @@ root.render(
     <App />
     <MyButton />
     <Profile />
+    <ShoppingList />
   </React.StrictMode>
 );
 
