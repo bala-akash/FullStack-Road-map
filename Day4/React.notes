@@ -29,3 +29,4 @@ function displayContent(){
   </div>
 }
 
+function starting with "use" are called hooks. as useState is a built-in-hooks which is provided by react
